@@ -9,7 +9,7 @@ const Portfolio = () => {
   const projects = [
     {
       title: "Personal website for chikh Ayoub",
-      tech: "html, css, javascript, php",
+      tech: "React, Tailwind CSS, Lucide icons",
       image: "/images/work_4_full.png",
       link: "https://www.ayoubquran.com/",
       type: "Personal"
@@ -53,21 +53,21 @@ const Portfolio = () => {
     {
       title: "QR Code Generator",
       tech: "React, Tailwind CSS, Lucide icons",
-      image: "/images/cover_bg_14.png",
+      image: "/images/work_10_full.png",
       link: "https://qr-generatora.netlify.app/",
       type: "Web App"
     },
     {
       title: "HydroQuip",
       tech: "React, Tailwind CSS, Framer Motion",
-      image: "/images/cover_bg_13.jpg",
+      image: "/images/work_11_full.png",
       link: "https://hydro-quip.netlify.app/",
       type: "Web"
     },
     {
       title: "Barakode Site",
       tech: "React, Tailwind CSS, i18n",
-      image: "/images/work_6_full.png",
+      image: "/images/work_12_full.png",
       link: "https://barakodesite.netlify.app/",
       type: "Web"
     }
