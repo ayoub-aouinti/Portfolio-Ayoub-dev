@@ -11,7 +11,7 @@ const Portfolio = () => {
       title: "Personal website for chikh Ayoub",
       tech: "html, css, javascript, php",
       image: "/images/work_4_full.png",
-      link: "https://ayoubaouinti-quran.netlify.app/?fbclid=IwAR3bdrOmv92B-TLyPKG3KNbbNVY4sKA5oavbrNmyh9gXKNnRuhAGGz4RYp4",
+      link: "https://www.ayoubquran.com/",
       type: "Personal"
     },
     {
@@ -25,7 +25,7 @@ const Portfolio = () => {
       title: "Website & platform for rabitaqurania of Tunisia",
       tech: "html, css, javascript, php, Laravel",
       image: "/images/work_6_full.png",
-      link: "https://rabitaquran.alwaysdata.net/public/",
+      link: "http://rabitaquran.tn/",
       type: "Platform"
     },
     {
@@ -49,6 +49,27 @@ const Portfolio = () => {
       image: "/images/work_9_full.png",
       video: "https://www.youtube.com/watch?v=2nQLzMUvELI",
       type: "App"
+    },
+    {
+      title: "QR Code Generator",
+      tech: "React, Tailwind CSS, Lucide icons",
+      image: "/images/cover_bg_14.png",
+      link: "https://qr-generatora.netlify.app/",
+      type: "Web App"
+    },
+    {
+      title: "HydroQuip",
+      tech: "React, Tailwind CSS, Framer Motion",
+      image: "/images/cover_bg_13.jpg",
+      link: "https://hydro-quip.netlify.app/",
+      type: "Web"
+    },
+    {
+      title: "Barakode Site",
+      tech: "React, Tailwind CSS, i18n",
+      image: "/images/work_6_full.png",
+      link: "https://barakodesite.netlify.app/",
+      type: "Web"
     }
   ];
 
