@@ -8,28 +8,32 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: "Personal website for chikh Ayoub",
+      title: t('portfolio.projects.quran.title'),
+      desc: t('portfolio.projects.quran.desc'),
       tech: "React, Tailwind CSS, Lucide icons",
       image: "/images/work_4_full.png",
       link: "https://www.ayoubquran.com/",
       type: "Personal"
     },
     {
-      title: "Book Store Library",
+      title: t('portfolio.projects.bookstore.title'),
+      desc: t('portfolio.projects.bookstore.desc'),
       tech: "html, css, prestashop",
       image: "/images/work_5_full.png",
       link: "https://prestashop.web-data-expert.fr/fr/",
       type: "Web"
     },
     {
-      title: "Website & platform for rabitaqurania of Tunisia",
+      title: t('portfolio.projects.rabita.title'),
+      desc: t('portfolio.projects.rabita.desc'),
       tech: "html, css, javascript, php, Laravel",
       image: "/images/work_6_full.png",
       link: "http://rabitaquran.tn/",
       type: "Platform"
     },
     {
-      title: "Quizz Angular App",
+      title: t('portfolio.projects.quizz.title'),
+      desc: t('portfolio.projects.quizz.desc'),
       tech: "html, css, javascript, Angular",
       image: "/images/work_7_full.png",
       link: "https://quizz-app-8f621.web.app/welcom",
@@ -37,35 +41,40 @@ const Portfolio = () => {
       type: "App"
     },
     {
-      title: "News Application",
+      title: t('portfolio.projects.news.title'),
+      desc: t('portfolio.projects.news.desc'),
       tech: "html, css, javascript, Angular, API",
       image: "/images/work_8_full.png",
       video: "https://www.youtube.com/watch?v=9Om68who3kI",
       type: "App"
     },
     {
-      title: "GYM Registration app",
+      title: t('portfolio.projects.gym.title'),
+      desc: t('portfolio.projects.gym.desc'),
       tech: "html, css, javascript, Angular",
       image: "/images/work_9_full.png",
       video: "https://www.youtube.com/watch?v=2nQLzMUvELI",
       type: "App"
     },
     {
-      title: "QR Code Generator",
+      title: t('portfolio.projects.qr.title'),
+      desc: t('portfolio.projects.qr.desc'),
       tech: "React, Tailwind CSS, Lucide icons",
       image: "/images/work_10_full.png",
       link: "https://qr-generatora.netlify.app/",
       type: "Web App"
     },
     {
-      title: "HydroQuip",
+      title: t('portfolio.projects.hydro.title'),
+      desc: t('portfolio.projects.hydro.desc'),
       tech: "React, Tailwind CSS, Framer Motion",
       image: "/images/work_11_full.png",
       link: "https://hydro-quip.netlify.app/",
       type: "Web"
     },
     {
-      title: "Barakode Site",
+      title: t('portfolio.projects.barakode.title'),
+      desc: t('portfolio.projects.barakode.desc'),
       tech: "React, Tailwind CSS, i18n",
       image: "/images/work_12_full.png",
       link: "https://barakodesite.netlify.app/",
@@ -86,7 +95,7 @@ const Portfolio = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="group relative bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all"
+              className="group relative bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all h-full flex flex-col"
             >
               <div className="relative aspect-video">
                 <img src={project.image} alt={project.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
@@ -102,21 +111,25 @@ const Portfolio = () => {
                 </div>
               </div>
               
-              <div className="p-6">
-                <span className="inline-block px-3 py-1 text-xs font-bold uppercase tracking-wider bg-primary/10 text-primary rounded-full mb-3">
+              <div className="p-6 flex flex-col flex-1">
+                <span className="inline-block px-3 py-1 text-xs font-bold uppercase tracking-wider bg-primary/10 text-primary rounded-full mb-3 self-start">
                   {project.type}
                 </span>
                 <h3 className="text-xl font-bold dark:text-white mb-2 leading-tight">{project.title}</h3>
-                <p className="text-gray-600 dark:text-gray-400 text-sm mb-4">{project.tech}</p>
-                
-                <a 
-                  href={project.link} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-sm font-bold text-gray-900 dark:text-gray-200 hover:text-primary transition-colors flex items-center group/link"
-                >
-                  {t('portfolio.view')} <ExternalLink className={`ml-1 w-4 h-4 transition-transform group-hover/link:translate-x-1 ${i18n.language === 'ar' ? 'rotate-180' : ''}`} />
-                </a>
+                <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-3">
+                  {project.desc}
+                </p>
+                <div className="mt-auto">
+                  <p className="text-gray-500 dark:text-gray-500 text-[10px] font-bold uppercase tracking-widest mb-4">{project.tech}</p>
+                  <a 
+                    href={project.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-sm font-bold text-gray-900 dark:text-gray-200 hover:text-primary transition-colors flex items-center group/link"
+                  >
+                    {t('portfolio.view')} <ExternalLink className={`ml-1 w-4 h-4 transition-transform group-hover/link:translate-x-1 ${i18n.language === 'ar' ? 'rotate-180' : ''}`} />
+                  </a>
+                </div>
               </div>
             </motion.div>
           ))}

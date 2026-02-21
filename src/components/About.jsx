@@ -31,7 +31,7 @@ const About = () => {
               {t('about.description')}
             </p>
             <a 
-              href="/documents/CV Ayoub 2023.pdf" 
+              href="/documents/cv-Ayoub-dev-2026-NV-fr.pdf" 
               target="_blank" 
               className="inline-block px-8 py-3 bg-primary text-white font-bold rounded-full hover:bg-red-700 transition-colors shadow-lg hover:shadow-xl"
             >

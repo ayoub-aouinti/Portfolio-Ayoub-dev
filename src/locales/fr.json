@@ -31,7 +31,45 @@
   },
   "portfolio": {
     "title": "Portfolio",
-    "view": "voir le site"
+    "view": "voir le site",
+    "projects": {
+      "quran": {
+        "title": "Site web personnel pour chikh Ayoub",
+        "desc": "Une plateforme dédiée aux études coraniques et aux ressources islamiques, avec enregistrements audio et contenu éducatif."
+      },
+      "bookstore": {
+        "title": "Bibliothèque de Librairie",
+        "desc": "Une solution e-commerce complète pour une librairie, construite avec Prestashop pour une gestion robuste."
+      },
+      "rabita": {
+        "title": "Site web et plateforme pour la rabitaqurania de Tunisie",
+        "desc": "Une plateforme complète pour l'Association Coranique Tunisienne, gérant les membres et les événements."
+      },
+      "quizz": {
+        "title": "Application de Quiz Angular",
+        "desc": "Une application de quiz interactive développée avec Angular, conçue pour tester les connaissances en temps réel."
+      },
+      "news": {
+        "title": "Application d'Actualités",
+        "desc": "Un agrégateur d'actualités dynamique qui récupère des articles en temps réel via diverses API, built with Angular."
+      },
+      "gym": {
+        "title": "Application d'Inscription GYM",
+        "desc": "Une application simplifiée pour les abonnements de salle de sport, permettant aux utilisateurs de s'inscrire."
+      },
+      "qr": {
+        "title": "Générateur de Code QR",
+        "desc": "Un outil React puissant pour créer des codes QR personnalisés avec des styles ajustables et des logos."
+      },
+      "hydro": {
+        "title": "HydroQuip",
+        "desc": "Un site web professionnel présentant des services et produits industriels avec un design épuré."
+      },
+      "barakode": {
+        "title": "Site Barakode",
+        "desc": "Un site web d'entreprise moderne mettant l'accent sur les services numériques et le support multilingue."
+      }
+    }
   },
   "contact": {
     "title": "Contactez-moi",

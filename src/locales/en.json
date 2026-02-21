@@ -31,7 +31,45 @@
   },
   "portfolio": {
     "title": "Portfolio",
-    "view": "view website"
+    "view": "view website",
+    "projects": {
+      "quran": {
+        "title": "Personal website for chikh Ayoub",
+        "desc": "A dedicated platform for Quranic studies and Islamic resources, featuring audio recordings and educational content."
+      },
+      "bookstore": {
+        "title": "Book Store Library",
+        "desc": "A complete e-commerce solution for a bookstore, built with Prestashop for robust management and seamless shopping."
+      },
+      "rabita": {
+        "title": "Website & platform for rabitaqurania of Tunisia",
+        "desc": "A comprehensive platform for the Tunisian Quranic Association, managing members, events, and educational programs."
+      },
+      "quizz": {
+        "title": "Quizz Angular App",
+        "desc": "An interactive quiz application developed with Angular, designed to test knowledge with real-time feedback."
+      },
+      "news": {
+        "title": "News Application",
+        "desc": "A dynamic news aggregator that fetches real-time articles from various APIs, built with Angular."
+      },
+      "gym": {
+        "title": "GYM Registration app",
+        "desc": "A streamlined application for gym memberships, allowing users to register and manage their profiles."
+      },
+      "qr": {
+        "title": "QR Code Generator",
+        "desc": "A powerful React tool for creating custom QR codes with adjustable styles, logos, and instant downloads."
+      },
+      "hydro": {
+        "title": "HydroQuip",
+        "desc": "A professional business website showcasing industrial services and products with a sleek design."
+      },
+      "barakode": {
+        "title": "Barakode Site",
+        "desc": "A modern corporate website emphasizing digital services, multi-language support, and sleek UI/UX."
+      }
+    }
   },
   "contact": {
     "title": "Get In Touch",
