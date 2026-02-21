@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Portfolio from './components/Portfolio'
@@ -10,6 +11,7 @@ import Footer from './components/Footer'
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const { i18n } = useTranslation();
 
   useEffect(() => {
     if (isDarkMode) {
@@ -18,6 +20,11 @@ function App() {
       document.documentElement.classList.remove('dark');
     }
   }, [isDarkMode]);
+
+  useEffect(() => {
+    document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
+    document.documentElement.lang = i18n.language;
+  }, [i18n.language]);
 
   const toggleDarkMode = () => setIsDarkMode(!isDarkMode);
 

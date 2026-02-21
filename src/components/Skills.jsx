@@ -1,18 +1,21 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-
-const skills = [
-  { name: "Prestashop/WordPress", level: 80 },
-  { name: "HTML/CSS", level: 85 },
-  { name: "PHP/Laravel", level: 65 },
-  { name: "Design", level: 90 },
-];
+import { useTranslation } from 'react-i18next'
 
 const Skills = () => {
+  const { t } = useTranslation();
+
+  const skills = [
+    { name: "Prestashop/WordPress", level: 80 },
+    { name: "HTML/CSS", level: 85 },
+    { name: "PHP/Laravel", level: 65 },
+    { name: "Design", level: 90 },
+  ];
+
   return (
     <section id="skills" className="py-20 bg-white dark:bg-gray-900 transition-colors duration-300">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-black text-center mb-16 dark:text-white">My Skills</h2>
+        <h2 className="text-4xl font-black text-center mb-16 dark:text-white">{t('skills.title')}</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {skills.map((skill, index) => (

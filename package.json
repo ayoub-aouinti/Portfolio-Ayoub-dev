@@ -15,7 +15,10 @@
     "framer-motion": "^10.16.4",
     "lucide-react": "^0.284.0",
     "clsx": "^2.0.0",
-    "tailwind-merge": "^1.14.0"
+    "tailwind-merge": "^1.14.0",
+    "i18next": "^23.5.1",
+    "react-i18next": "^13.2.2",
+    "i18next-browser-languagedetector": "^7.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

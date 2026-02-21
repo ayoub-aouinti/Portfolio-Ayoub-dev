@@ -1,7 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden bg-cover bg-center" style={{ backgroundImage: "url('/images/cover_bg_13.jpg')" }}>
       <div className="absolute inset-0 bg-black/40 z-0"></div>
@@ -16,7 +19,7 @@ const Hero = () => {
             Ayoub<span className="text-primary"> AOUINTI</span>
           </h1>
           <h2 className="text-xl md:text-2xl text-gray-200 font-light">
-            I’m Ayoub Aouinti, A Fullstack web developer Based In Tunisia
+            {t('hero.subheading')}
           </h2>
         </motion.div>
 
@@ -27,7 +30,7 @@ const Hero = () => {
           className="absolute bottom-10 left-1/2 -translate-x-1/2"
         >
           <a href="#portfolio" className="flex flex-col items-center text-white opacity-60 hover:opacity-100 transition-opacity">
-            <span className="text-xs uppercase tracking-widest mb-2">Scroll</span>
+            <span className="text-xs uppercase tracking-widest mb-2">{t('hero.scroll')}</span>
             <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center p-1">
               <motion.div
                 animate={{ y: [0, 10, 0] }}

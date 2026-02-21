@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "portfolio": "Portfolio",
+    "about": "À Propos",
+    "services": "Services",
+    "skills": "Compétences",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subheading": "Je suis Ayoub Aouinti, Développeur Web Fullstack basé en Tunisie",
+    "scroll": "Défiler"
+  },
+  "about": {
+    "title": "À Propos de Moi",
+    "subtitle": "Nous pouvons réussir ensemble",
+    "description": "Avec de l'expérience dans les projets d'ingénierie, j'apporte des compétences précieuses au développement de logiciels. Mon expertise en analyse, gestion de projet et conception de systèmes se traduit par le développement web, où je crée des solutions performantes. Je reste à l'affût des avancées technologiques pour garantir des applications évolutives et de haute qualité.",
+    "cv": "Télécharger mon CV"
+  },
+  "services": {
+    "title": "Mes Services",
+    "digital_strategy": "Stratégie Digitale",
+    "web_design": "Design Web",
+    "ux": "Expérience Utilisateur",
+    "web_dev": "Développement Web",
+    "cms": "Solutions Prestashop/WordPress",
+    "database": "Conception de Base de Données"
+  },
+  "skills": {
+    "title": "Mes Compétences"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "view": "voir le site"
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "form": {
+      "name": "Nom",
+      "name_placeholder": "Votre Nom",
+      "email": "Email",
+      "email_placeholder": "votre@email.com",
+      "message": "Message",
+      "message_placeholder": "Parlez-moi de votre projet...",
+      "send": "Envoyer le Message",
+      "sending": "Envoi en cours...",
+      "success": "Message Envoyé avec Succès !"
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Téléphone",
+      "address": "Adresse"
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés."
+  }
+}

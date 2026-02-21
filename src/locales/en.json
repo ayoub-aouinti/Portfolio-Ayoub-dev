@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "services": "Services",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subheading": "I’m Ayoub Aouinti, A Fullstack web developer Based In Tunisia",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "We can make it together",
+    "description": "With experience in engineering projects, I bring valuable skills to software development. My expertise in analysis, project management, and system design translates into web development, where I create high-performing solutions. I stay up-to-date with technological advancements to ensure high-quality and scalable applications.",
+    "cv": "Download my CV"
+  },
+  "services": {
+    "title": "My Services",
+    "digital_strategy": "Digital Strategy",
+    "web_design": "Web Design",
+    "ux": "User Experience",
+    "web_dev": "Web Development",
+    "cms": "Prestashop/WordPress",
+    "database": "Database Design"
+  },
+  "skills": {
+    "title": "My Skills"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "view": "view website"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Your Name",
+      "email": "Email",
+      "email_placeholder": "your@email.com",
+      "message": "Message",
+      "message_placeholder": "Tell me about your project...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message Sent Successfully!"
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    }
+  },
+  "footer": {
+    "rights": "All Rights Reserved."
+  }
+}

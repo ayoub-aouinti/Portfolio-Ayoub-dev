@@ -1,6 +1,9 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="about" className="py-20 bg-white dark:bg-gray-900 transition-colors duration-300">
       <div className="container mx-auto px-6">
@@ -18,24 +21,21 @@ const About = () => {
           
           <div className="lg:w-1/2">
             <h2 className="text-4xl font-black mb-6 dark:text-white flex items-center">
-              About Me
-              <span className="ml-4 block h-1 w-20 bg-primary"></span>
+              {t('about.title')}
+              <span className={`mx-4 block h-1 w-20 bg-primary`}></span>
             </h2>
             <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-200 mb-6">
-              We can make it together
+              {t('about.subtitle')}
             </h3>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
-              With experience in engineering projects, I bring valuable skills to software development. 
-              My expertise in analysis, project management, and system design translates into web development, 
-              where I create high-performing solutions. I stay up-to-date with technological advancements 
-              to ensure high-quality and scalable applications.
+              {t('about.description')}
             </p>
             <a 
               href="/documents/CV Ayoub 2023.pdf" 
               target="_blank" 
               className="inline-block px-8 py-3 bg-primary text-white font-bold rounded-full hover:bg-red-700 transition-colors shadow-lg hover:shadow-xl"
             >
-              Download my CV
+              {t('about.cv')}
             </a>
           </div>
         </div>
