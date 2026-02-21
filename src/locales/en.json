@@ -92,5 +92,52 @@
   },
   "footer": {
     "rights": "All Rights Reserved."
+  },
+  "career": {
+    "title": "Career & Education",
+    "timeline": {
+      "exp_revampr": {
+        "date": "May 2024 - Present",
+        "company": "Revampr Ai (Zinki Ai)",
+        "role": "Software Engineer (Web Developer)",
+        "desc": "Lead the design and development of user interfaces using Angular and PrimeNG. Implementing backend services with Spring Boot and collaborating in an Agile (SCRUM) environment."
+      },
+      "exp_digizone": {
+        "date": "Jan 2024 - April 2024",
+        "company": "DIGIZONE (MCOM)",
+        "role": "Fullstack Developer",
+        "desc": "Developed technical solutions and REST APIs using Laravel and Angular. Managed the full development lifecycle and UI/UX design in an Agile team."
+      },
+      "exp1": {
+        "date": "May 2023 - Sept 2023",
+        "company": "DIGITAL PROCESS SBS, France",
+        "role": "Fullstack Developer (Remote)",
+        "desc": "Developed a transport management web application using Symfony 6. Handled functional analysis, persistence ORM, and CI/CD workflows."
+      },
+      "exp2": {
+        "date": "July 2022 - April 2023",
+        "company": "DEVWISE, Tunisia",
+        "role": "Frontend Developer (Hybrid)",
+        "desc": "Created interactive e-commerce and fitness platforms using Angular. Focused on technical analysis, UI prototyping, and API integration."
+      },
+      "exp3": {
+        "date": "2018 - 2022",
+        "company": "Hydroplante, Tunis",
+        "role": "Hydraulic Engineer",
+        "desc": "Led hydraulic and hydrological studies as a team leader. Managed stakeholder communication and project organization."
+      },
+      "edu1": {
+        "date": "2012 - 2016",
+        "company": "ESIER-ESIM",
+        "role": "Engineering Degree",
+        "desc": "National Engineer in Hydraulics and Development at Medjez-lbeb Higher School of Engineers."
+      },
+      "edu2": {
+        "date": "2009 - 2012",
+        "company": "IPEIN Nabeul",
+        "role": "Preparatory Cycle",
+        "desc": "Intensive preparatory studies for engineering school entrance competition."
+      }
+    }
   }
 }

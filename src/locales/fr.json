@@ -92,5 +92,52 @@
   },
   "footer": {
     "rights": "Tous droits réservés."
+  },
+  "career": {
+    "title": "Parcours & Éducation",
+    "timeline": {
+      "exp_revampr": {
+        "date": "Mai 2024 - Aujourd'hui",
+        "company": "Revampr Ai (Zinki Ai)",
+        "role": "Ingénieur Logiciel (Développeur Web)",
+        "desc": "Conception et développement des interfaces avec Angular et PrimeNG. Fix bugs et développement backend Spring Boot en méthodologie Agile (SCRUM)."
+      },
+      "exp_digizone": {
+        "date": "Janv 2024 - Avril 2024",
+        "company": "DIGIZONE (MCOM)",
+        "role": "Développeur Fullstack",
+        "desc": "Établissement de solutions techniques et création de web services (REST API) avec Laravel et Angular. Travail en équipe Agile (SCRUM)."
+      },
+      "exp1": {
+        "date": "Mai 2023 - Sept 2023",
+        "company": "DIGITAL PROCESS SBS, France",
+        "role": "Développeur Fullstack (Remote)",
+        "desc": "Développement d'une application web de gestion de transport sous Symfony 6. Analyse fonctionnelle, persistance ORM et CI/CD."
+      },
+      "exp2": {
+        "date": "Juillet 2022 - Avril 2023",
+        "company": "DEVWISE, Tunisia",
+        "role": "Développeur Frontend (Hybride)",
+        "desc": "Création de plateformes e-commerce et fitness interactives avec Angular. Analyse technique, prototypage UI et intégration API."
+      },
+      "exp3": {
+        "date": "2018 - 2022",
+        "company": "Hydroplante, Tunis",
+        "role": "Ingénieur Hydraulicien",
+        "desc": "Chef d'équipe pour des études hydrauliques et hydrologiques. Gestion de la communication et organisation de projet."
+      },
+      "edu1": {
+        "date": "2012 - 2016",
+        "company": "ESIER-ESIM",
+        "role": "Diplôme d'Ingénieur",
+        "desc": "Ingénieur National en Hydraulique et Aménagement à l'École Supérieure d'Ingénieurs de Medjez-lbeb."
+      },
+      "edu2": {
+        "date": "2009 - 2012",
+        "company": "IPEIN Nabeul",
+        "role": "Cycle Préparatoire",
+        "desc": "Etudes préparatoires intensives aux concours d'entrée aux grandes écoles d'ingénieurs."
+      }
+    }
   }
 }

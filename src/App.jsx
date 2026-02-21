@@ -9,6 +9,7 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import WhatsAppWidget from './components/WhatsAppWidget'
+import Career from './components/Career'
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -36,6 +37,7 @@ function App() {
         <Hero />
         <Portfolio />
         <About />
+        <Career />
         <Services />
         <Skills />
         <Contact />

@@ -10,6 +10,7 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
     { name: t('nav.home'), href: '#home' },
     { name: t('nav.portfolio'), href: '#portfolio' },
     { name: t('nav.about'), href: '#about' },
+    { name: t('career.title'), href: '#career' },
     { name: t('nav.services'), href: '#services' },
     { name: t('nav.skills'), href: '#skills' },
     { name: t('nav.contact'), href: '#contact' },
