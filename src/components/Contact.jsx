@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Mail, Phone, MapPin, Send } from 'lucide-react'
+import { Mail, Phone, MapPin, Send, MessageCircle } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 const Contact = () => {
@@ -97,13 +97,24 @@ const Contact = () => {
               </div>
             </div>
             
-            <div className="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-800 flex items-start space-x-4 rtl:space-x-reverse">
+            <div className="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-800 flex items-start space-x-4 rtl:space-x-reverse group">
               <div className="p-3 bg-primary/10 rounded-lg text-primary">
                 <Phone className="w-6 h-6" />
               </div>
-              <div>
+              <div className="flex-1">
                 <h4 className="font-bold dark:text-white">{t('contact.info.phone')}</h4>
-                <p className="text-gray-600 dark:text-gray-400" dir="ltr">+216 51 790 223</p>
+                <div className="flex items-center justify-between">
+                  <p className="text-gray-600 dark:text-gray-400" dir="ltr">+216 51 790 223</p>
+                  <a 
+                    href="https://wa.me/21651790223" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-1 text-green-500 hover:text-green-600 transition-colors"
+                  >
+                    <MessageCircle className="w-5 h-5 fill-current" />
+                    <span className="text-xs font-bold">WhatsApp</span>
+                  </a>
+                </div>
               </div>
             </div>
             

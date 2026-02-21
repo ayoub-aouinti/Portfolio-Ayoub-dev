@@ -8,6 +8,7 @@ import Services from './components/Services'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import WhatsAppWidget from './components/WhatsAppWidget'
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -40,6 +41,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <WhatsAppWidget />
     </div>
   )
 }
