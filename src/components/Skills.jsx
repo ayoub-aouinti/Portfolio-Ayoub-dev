@@ -7,9 +7,11 @@ const Skills = () => {
 
   const skills = [
     { name: "Prestashop/WordPress", level: 80 },
-    { name: "HTML/CSS", level: 85 },
+    { name: "Java/SpringBoot", level: 55 },
     { name: "PHP/Laravel", level: 65 },
-    { name: "Design", level: 90 },
+    { name: "Angular & React", level: 90 },
+    { name: "NestJs", level: 70 },
+    { name: "Tailwind CSS/ Bootstrap/ primeNg", level: 90 },
   ];
 
   return (
