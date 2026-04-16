@@ -8,71 +8,134 @@
     "contact": "Contact"
   },
   "hero": {
-    "subheading": "I’m Ayoub Aouinti, A Fullstack web developer Based In Tunisia",
+    "badge": "Available for hire",
+    "subheading": "Full-Stack Engineer specialized in scalable web solutions & business automation",
+    "tagline": "4+ years turning complex business challenges into elegant, high-performance web applications.",
+    "cta_portfolio": "View My Work",
+    "cta_contact": "Let's Talk",
     "scroll": "Scroll"
   },
   "about": {
+    "label": "About Me",
     "title": "About Me",
-    "subtitle": "We can make it together",
-    "description": "With experience in engineering projects, I bring valuable skills to software development. My expertise in analysis, project management, and system design translates into web development, where I create high-performing solutions. I stay up-to-date with technological advancements to ensure high-quality and scalable applications.",
+    "subtitle": "Engineer by training, developer by passion",
+    "description": "With a unique background combining Hydraulic Engineering and Full-Stack Development, I bring analytical rigor to every project. I don't just write code — I design systems that solve real business problems. My engineering mindset ensures scalable architecture, clean code, and measurable results.",
+    "strength1": "Analytical & systems thinking",
+    "strength2": "Agile methodology (SCRUM)",
+    "strength3": "End-to-end project delivery",
+    "strength4": "Remote & team collaboration",
+    "years": "Years of experience",
     "cv": "Download my CV"
   },
   "services": {
+    "label": "What I Do",
     "title": "My Services",
+    "subtitle": "End-to-end web solutions tailored to your business needs",
     "digital_strategy": "Digital Strategy",
+    "digital_strategy_desc": "Transform your vision into a coherent digital roadmap that drives growth and engagement.",
     "web_design": "Web Design",
+    "web_design_desc": "Pixel-perfect, responsive designs that captivate users and reflect your brand identity.",
     "ux": "User Experience",
+    "ux_desc": "Intuitive interfaces grounded in user research that maximize satisfaction and conversions.",
     "web_dev": "Web Development",
-    "cms": "Prestashop/WordPress",
-    "database": "Database Design"
+    "web_dev_desc": "Robust, scalable applications built with modern frameworks and industry best practices.",
+    "cms": "Prestashop / WordPress",
+    "cms_desc": "Custom e-commerce and CMS solutions that are easy to manage and optimized for performance.",
+    "database": "Database Design",
+    "database_desc": "Efficient data architectures that ensure speed, reliability, and seamless integrations."
   },
   "skills": {
-    "title": "My Skills"
+    "label": "Expertise",
+    "title": "Technical Skills",
+    "subtitle": "A well-rounded skill set covering the full development spectrum — from pixel-perfect UIs to robust server architectures.",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "uiframeworks": "UI Frameworks",
+    "tools": "Tools & CMS"
+  },
+  "whyhire": {
+    "label": "Why Me",
+    "title": "Why Hire Me",
+    "subtitle": "What sets me apart from other developers",
+    "reason1_title": "I analyze before I code",
+    "reason1_desc": "I don't just jump into coding — I study the problem, design the architecture, and build solutions that last. My engineering background means every decision is data-driven.",
+    "reason2_title": "Real-world business systems",
+    "reason2_desc": "I've built production platforms handling real users and transactions — not just tutorial projects. From e-commerce to management tools, I deliver business value.",
+    "reason3_title": "Agile team player",
+    "reason3_desc": "Experienced working in distributed, cross-functional teams using SCRUM. I communicate clearly, ship on time, and adapt fast to changing requirements."
   },
   "portfolio": {
+    "label": "My Work",
     "title": "Portfolio",
-    "view": "view website",
+    "subtitle": "Real projects, real impact — each built to solve a specific business challenge.",
+    "view": "View website",
     "projects": {
       "quran": {
-        "title": "Personal website for chikh Ayoub",
-        "desc": "A dedicated platform for Quranic studies and Islamic resources, featuring audio recordings and educational content."
+        "title": "Personal website for Cheikh Ayoub",
+        "desc": "A dedicated platform for Quranic studies and Islamic resources, featuring audio recordings and educational content.",
+        "impact": "500+ monthly active visitors"
       },
       "bookstore": {
         "title": "Book Store Library",
-        "desc": "A complete e-commerce solution for a bookstore, built with Prestashop for robust management and seamless shopping."
+        "desc": "A complete e-commerce solution for a bookstore, built with Prestashop for robust management and seamless shopping.",
+        "impact": "Full catalog with 200+ products"
       },
       "rabita": {
-        "title": "Website & platform for rabitaqurania of Tunisia",
-        "desc": "A comprehensive platform for the Tunisian Quranic Association, managing members, events, and educational programs."
+        "title": "Rabita Qurania Tunisia Platform",
+        "desc": "A comprehensive platform for the Tunisian Quranic Association, managing members, events, and educational programs.",
+        "impact": "1000+ members managed"
       },
       "quizz": {
-        "title": "Quizz Angular App",
-        "desc": "An interactive quiz application developed with Angular, designed to test knowledge with real-time feedback."
+        "title": "Interactive Quiz Application",
+        "desc": "An interactive quiz app with real-time scoring, timed questions, and instant feedback built with Angular.",
+        "impact": "Real-time scoring engine"
       },
       "news": {
-        "title": "News Application",
-        "desc": "A dynamic news aggregator that fetches real-time articles from various APIs, built with Angular."
+        "title": "News Aggregator App",
+        "desc": "A dynamic news aggregator fetching real-time articles from multiple APIs with category filtering.",
+        "impact": "Multi-source API integration"
       },
       "gym": {
-        "title": "GYM Registration app",
-        "desc": "A streamlined application for gym memberships, allowing users to register and manage their profiles."
+        "title": "GYM Registration Platform",
+        "desc": "A streamlined membership management application for gyms, with registration and profile management.",
+        "impact": "Automated registration flow"
       },
       "qr": {
         "title": "QR Code Generator",
-        "desc": "A powerful React tool for creating custom QR codes with adjustable styles, logos, and instant downloads."
+        "desc": "A powerful React tool for creating custom QR codes with adjustable styles, logo embedding, and instant downloads.",
+        "impact": "Custom styling & logo support"
       },
       "hydro": {
-        "title": "HydroQuip",
-        "desc": "A professional business website showcasing industrial services and products with a sleek design."
+        "title": "HydroQuip — Industrial Services",
+        "desc": "A professional business website showcasing industrial services and products with modern animations.",
+        "impact": "SEO-optimized landing page"
       },
       "barakode": {
-        "title": "Barakode Site",
-        "desc": "A modern corporate website emphasizing digital services, multi-language support, and sleek UI/UX."
+        "title": "Barakode Corporate Site",
+        "desc": "A modern corporate website emphasizing digital services with full multi-language support and sleek UI/UX.",
+        "impact": "3-language support (EN/FR/AR)"
+      },
+      "red_website": {
+        "title": "RED Website & Admin Panel",
+        "desc": "A customizable website with a dedicated backoffice. Includes a Content Editor for managing text and translations, and a Style Customizer for themes and colors.",
+        "impact": "Full CMS & Theming System"
+      },
+      "badgi": {
+        "title": "Badgi Event Management",
+        "desc": "A complete event and badge management platform. Handles everything from registrations and custom forms to dynamic badge generation and organization management.",
+        "impact": "Comprehensive Event Platform"
+      },
+      "unimed": {
+        "title": "UNIMED Pharmaceutical EBR",
+        "desc": "Digitalization of pharmaceutical batch records for UNIMED laboratories. Developed complex workflows, dynamic form management interfaces, and integrated BPMN/Camunda engine.",
+        "impact": "Enterprise Process Digitalization"
       }
     }
   },
   "contact": {
-    "title": "Get In Touch",
+    "label": "Get In Touch",
+    "title": "Let's Work Together",
+    "subtitle": "I'm open to full-time, freelance, or hybrid opportunities in Tunisia or remote. Let's build something impactful.",
     "form": {
       "name": "Name",
       "name_placeholder": "Your Name",
@@ -96,6 +159,12 @@
   "career": {
     "title": "Career & Education",
     "timeline": {
+      "exp_unimed": {
+        "date": "Oct 2024 - Feb 2025",
+        "company": "Continuousnet (UNIMED Project)",
+        "role": "Software Engineer (Freelance)",
+        "desc": "Digitalization of pharmaceutical batch records for UNIMED. Designed and developed interfaces and APIs, focusing on workflow models, form management, and BPMN/Camunda integration."
+      },
       "exp_revampr": {
         "date": "May 2024 - Present",
         "company": "Revampr Ai (Zinki Ai)",

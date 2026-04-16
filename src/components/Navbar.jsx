@@ -1,10 +1,17 @@
 import React from 'react'
-import { Sun, Moon, Menu, X, Globe } from 'lucide-react'
+import { Sun, Moon, Menu, X } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 const Navbar = ({ isDarkMode, toggleDarkMode }) => {
   const [isOpen, setIsOpen] = React.useState(false);
+  const [isScrolled, setIsScrolled] = React.useState(false);
   const { t, i18n } = useTranslation();
+
+  React.useEffect(() => {
+    const handleScroll = () => setIsScrolled(window.scrollY > 20);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const navLinks = [
     { name: t('nav.home'), href: '#home' },
@@ -28,10 +35,14 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
   ];
 
   return (
-    <nav className="fixed w-full z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800 transition-colors duration-300">
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${
+      isScrolled 
+        ? 'bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-sm border-b border-gray-200/50 dark:border-gray-800/50' 
+        : 'bg-transparent'
+    }`}>
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#home" className="text-2xl font-bold text-gray-900 dark:text-white">
-          Aouinti<span className="text-primary">.A</span>
+          Aouinti<span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">.A</span>
         </a>
 
         {/* Desktop Nav */}
@@ -40,23 +51,27 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
             <a
               key={link.name}
               href={link.href}
-              className="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
+              className={`text-sm font-medium transition-colors hover:text-primary ${
+                isScrolled 
+                  ? 'text-gray-600 dark:text-gray-300' 
+                  : 'text-white/80 hover:text-white dark:text-gray-300'
+              }`}
             >
               {link.name}
             </a>
           ))}
           
-          <div className="flex items-center space-x-4 border-l pl-8 border-gray-200 dark:border-gray-700">
-            <div className="flex bg-gray-100 dark:bg-gray-800 rounded-lg p-1">
+          <div className="flex items-center space-x-4 border-l pl-8 border-gray-200/30 dark:border-gray-700">
+            <div className="flex bg-gray-100/80 dark:bg-gray-800 rounded-lg p-1 backdrop-blur-sm">
               {languages.map((lng) => (
                 <button
                   key={lng.code}
                   onClick={() => i18n.changeLanguage(lng.code)}
-                  className={`px-2 py-1 text-xs font-bold rounded ${
+                  className={`px-2 py-1 text-xs font-bold rounded transition-all ${
                     i18n.language === lng.code 
-                    ? 'bg-primary text-white' 
+                    ? 'bg-gradient-to-r from-primary to-cyan-400 text-white shadow-sm' 
                     : 'text-gray-500 hover:text-primary'
-                  } transition-all`}
+                  }`}
                 >
                   {lng.name}
                 </button>
@@ -65,9 +80,13 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
 
             <button
               onClick={toggleDarkMode}
-              className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+              className={`p-2 rounded-full transition-colors ${
+                isScrolled
+                  ? 'hover:bg-gray-100 dark:hover:bg-gray-800'
+                  : 'hover:bg-white/10'
+              }`}
             >
-              {isDarkMode ? <Sun className="w-5 h-5 text-gray-300" /> : <Moon className="w-5 h-5 text-gray-600" />}
+              {isDarkMode ? <Sun className="w-5 h-5 text-gray-300" /> : <Moon className={`w-5 h-5 ${isScrolled ? 'text-gray-600' : 'text-white/80'}`} />}
             </button>
           </div>
         </div>
@@ -78,9 +97,9 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
             onClick={toggleDarkMode}
             className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
           >
-            {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+            {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className={`w-5 h-5 ${isScrolled ? 'text-gray-600' : 'text-white'}`} />}
           </button>
-          <button onClick={() => setIsOpen(!isOpen)} className="text-gray-900 dark:text-white">
+          <button onClick={() => setIsOpen(!isOpen)} className={`${isScrolled ? 'text-gray-900 dark:text-white' : 'text-white'}`}>
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>

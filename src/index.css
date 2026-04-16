@@ -1,20 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Design System Variables */
 :root {
-  --primary: #d63447;
+  --font-sans: 'Inter', sans-serif;
+  --primary: #0ea5e9; /* teal */
+  --secondary: #f97316; /* orange */
+  --bg-gradient: linear-gradient(135deg, #0ea5e9 0%, #f97316 100%);
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.2);
 }
 
+/* Global Styles */
 body {
-  @apply bg-white text-gray-900 transition-colors duration-300;
+  @apply bg-white text-gray-900 transition-colors duration-300 font-sans;
+  font-family: var(--font-sans);
 }
 
 .dark body {
   @apply bg-gray-900 text-gray-100;
 }
 
-/* Custom styles for animations and specific layout needs */
+/* Glassmorphism Utility */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  border: 1px solid var(--glass-border);
+}
+
+/* Custom animation helpers */
 .gsap-reveal {
   position: relative;
   overflow: hidden;
@@ -28,4 +45,9 @@ body {
   height: 100%;
   background: var(--primary);
   z-index: 2;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
 }

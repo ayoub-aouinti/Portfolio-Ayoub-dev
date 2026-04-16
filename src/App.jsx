@@ -10,6 +10,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import WhatsAppWidget from './components/WhatsAppWidget'
 import Career from './components/Career'
+import WhyHireMe from './components/WhyHireMe'
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -40,6 +41,7 @@ function App() {
         <Career />
         <Services />
         <Skills />
+        <WhyHireMe />
         <Contact />
       </main>
       <Footer />

@@ -7,8 +7,13 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
       colors: {
-        primary: "#D63447",
+        primary: "#0ea5e9",
+        secondary: "#f97316",
+        accent: "#8b5cf6",
       },
     },
   },
