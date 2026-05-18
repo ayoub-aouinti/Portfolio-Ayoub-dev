@@ -9,7 +9,7 @@ const Career = () => {
 
   const milestones = [
     { id: 'exp_revampr', type: 'work' },
-    { id: 'exp_unimed', type: 'work' },
+    { id: 'exp_pharma', type: 'work' },
     { id: 'exp_digizone', type: 'work' },
     { id: 'exp1', type: 'work' },
     { id: 'exp2', type: 'work' },

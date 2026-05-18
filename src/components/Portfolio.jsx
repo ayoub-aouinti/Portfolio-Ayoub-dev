@@ -108,11 +108,11 @@ const Portfolio = () => {
       type: "Platform"
     },
     {
-      title: t('portfolio.projects.unimed.title'),
-      desc: t('portfolio.projects.unimed.desc'),
-      impact: t('portfolio.projects.unimed.impact'),
+      title: t('portfolio.projects.pharma.title'),
+      desc: t('portfolio.projects.pharma.desc'),
+      impact: t('portfolio.projects.pharma.impact'),
       tech: ["APIs", "BPMN", "Camunda", "Workflow"],
-      image: "/images/work_unimed_full.png",
+      image: "/images/work_pharma_full.png",
       type: "Enterprise App"
     }
   ];

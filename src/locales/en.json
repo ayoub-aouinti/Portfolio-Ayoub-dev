@@ -125,9 +125,9 @@
         "desc": "A complete event and badge management platform. Handles everything from registrations and custom forms to dynamic badge generation and organization management.",
         "impact": "Comprehensive Event Platform"
       },
-      "unimed": {
-        "title": "UNIMED Pharmaceutical EBR",
-        "desc": "Digitalization of pharmaceutical batch records for UNIMED laboratories. Developed complex workflows, dynamic form management interfaces, and integrated BPMN/Camunda engine.",
+      "pharma": {
+        "title": "Pharmaceutical",
+        "desc": "Digitalization of pharmaceutical batch records for a laboratory. Developed complex workflows, dynamic form management interfaces, and integrated BPMN/Camunda engine.",
         "impact": "Enterprise Process Digitalization"
       }
     }
@@ -159,11 +159,11 @@
   "career": {
     "title": "Career & Education",
     "timeline": {
-      "exp_unimed": {
+      "exp_pharma": {
         "date": "Oct 2024 - Feb 2025",
-        "company": "Continuousnet (UNIMED Project)",
+        "company": "Continuousnet (Pharmaceutical Project)",
         "role": "Software Engineer (Freelance)",
-        "desc": "Digitalization of pharmaceutical batch records for UNIMED. Designed and developed interfaces and APIs, focusing on workflow models, form management, and BPMN/Camunda integration."
+        "desc": "Digitalization of pharmaceutical batch records. Designed and developed interfaces and APIs, focusing on workflow models, form management, and BPMN/Camunda integration."
       },
       "exp_revampr": {
         "date": "May 2024 - Present",

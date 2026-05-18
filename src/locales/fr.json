@@ -125,8 +125,8 @@
         "desc": "Une plateforme complète de gestion d'événements et de badges. Prend en charge les inscriptions, les formulaires sur mesure, la génération dynamique de badges et la gestion d'organisations.",
         "impact": "Plateforme Événementielle Complète"
       },
-      "unimed": {
-        "title": "EBR Pharmaceutique UNIMED",
+      "pharma": {
+        "title": "Pharmaceutique",
         "desc": "Digitalisation des dossiers de lots pharmaceutiques. Développement de workflows complexes, gestion de formulaires dynamiques et intégration du moteur BPMN/Camunda.",
         "impact": "Digitalisation de Processus d'Entreprise"
       }
@@ -159,11 +159,11 @@
   "career": {
     "title": "Parcours & Éducation",
     "timeline": {
-      "exp_unimed": {
+      "exp_pharma": {
         "date": "Oct 2024 - Fév 2025",
-        "company": "Continuousnet (Projet UNIMED)",
+        "company": "Continuousnet (Projet Pharmaceutique)",
         "role": "Ingénieur Logiciel (Freelance)",
-        "desc": "Digitalisation des dossiers de lots pharmaceutiques pour Les laboratoires UNIMED. Conception et développement d'interfaces et APIs, intégration Camunda/BPMN, et gestion de formulaires workflow."
+        "desc": "Digitalisation des dossiers de lots pharmaceutiques. Conception et développement d'interfaces et APIs, intégration Camunda/BPMN, et gestion de formulaires workflow."
       },
       "exp_revampr": {
         "date": "Mai 2024 - Aujourd'hui",
