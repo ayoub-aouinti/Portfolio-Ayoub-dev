@@ -129,6 +129,11 @@
         "title": "Pharmaceutique",
         "desc": "Digitalisation des dossiers de lots pharmaceutiques. Développement de workflows complexes, gestion de formulaires dynamiques et intégration du moteur BPMN/Camunda.",
         "impact": "Digitalisation de Processus d'Entreprise"
+      },
+      "teshkeel": {
+        "title": "Al-Teshkeel — Diacritisation Arabe",
+        "desc": "Une application web pour ajouter la vocalisation (tashkeel) aux textes et documents arabes. Supporte les fichiers Word (.docx) et TXT. Les utilisateurs peuvent s'inscrire via Google ou Facebook, sauvegarder leurs résultats et gérer leurs opérations passées.",
+        "impact": "Traitement NLP arabe multi-format"
       }
     }
   },

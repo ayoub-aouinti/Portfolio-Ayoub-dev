@@ -129,6 +129,11 @@
         "title": "Pharmaceutical",
         "desc": "Digitalization of pharmaceutical batch records for a laboratory. Developed complex workflows, dynamic form management interfaces, and integrated BPMN/Camunda engine.",
         "impact": "Enterprise Process Digitalization"
+      },
+      "teshkeel": {
+        "title": "Al-Teshkeel — Arabic Diacritization",
+        "desc": "A web app for adding diacritical marks (tashkeel) to Arabic texts and documents. Supports Word (.docx) and TXT files. Users can sign in via Google or Facebook, save their diacritization results, and manage past operations.",
+        "impact": "Multi-format Arabic NLP Processing"
       }
     }
   },

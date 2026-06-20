@@ -114,6 +114,15 @@ const Portfolio = () => {
       tech: ["APIs", "BPMN", "Camunda", "Workflow"],
       image: "/images/work_pharma_full.png",
       type: "Enterprise App"
+    },
+    {
+      title: t('portfolio.projects.teshkeel.title'),
+      desc: t('portfolio.projects.teshkeel.desc'),
+      impact: t('portfolio.projects.teshkeel.impact'),
+      tech: ["Next.js", "Firebase Auth", "NLP", "OAuth"],
+      image: "/images/work_teshkeel_full.png",
+      link: "https://teshkeel-steel.vercel.app",
+      type: "Web App"
     }
   ];
 
