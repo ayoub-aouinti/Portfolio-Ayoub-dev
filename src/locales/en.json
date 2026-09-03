@@ -10,7 +10,7 @@
   "hero": {
     "badge": "Available for hire",
     "subheading": "Full-Stack Engineer specialized in scalable web solutions & business automation",
-    "tagline": "4+ years turning complex business challenges into elegant, high-performance web applications.",
+    "tagline": "10 years of experience (engineering + web dev) turning complex business challenges into elegant, high-performance web applications.",
     "cta_portfolio": "View My Work",
     "cta_contact": "Let's Talk",
     "scroll": "Scroll"
@@ -19,7 +19,7 @@
     "label": "About Me",
     "title": "About Me",
     "subtitle": "Engineer by training, developer by passion",
-    "description": "With a unique background combining Hydraulic Engineering and Full-Stack Development, I bring analytical rigor to every project. I don't just write code — I design systems that solve real business problems. My engineering mindset ensures scalable architecture, clean code, and measurable results.",
+    "description": "Full-Stack Software Engineer (Angular, Spring Boot, React, NestJS), I design robust, scalable web applications from frontend to API. Six years of engineering and project management shaped a rigorous approach — analysis, architecture, performance — which I now bring to 4+ years of web development across varied domains: DMS, e-commerce, pharma, agriculture. The result: maintainable code, tailored solutions, and constant technology watch.",
     "strength1": "Analytical & systems thinking",
     "strength2": "Agile methodology (SCRUM)",
     "strength3": "End-to-end project delivery",
@@ -165,7 +165,7 @@
     "title": "Career & Education",
     "timeline": {
       "exp_pharma": {
-        "date": "Oct 2024 - Feb 2025",
+        "date": "Oct 2025 - Feb 2026",
         "company": "Continuousnet (Pharmaceutical Project)",
         "role": "Software Engineer (Freelance)",
         "desc": "Digitalization of pharmaceutical batch records. Designed and developed interfaces and APIs, focusing on workflow models, form management, and BPMN/Camunda integration."
@@ -199,6 +199,12 @@
         "company": "Hydroplante, Tunis",
         "role": "Hydraulic Engineer",
         "desc": "Led hydraulic and hydrological studies as a team leader. Managed stakeholder communication and project organization."
+      },
+      "edu_mit": {
+        "date": "2024 - 2027",
+        "company": "MIT-Polytech, Tunis",
+        "role": "Engineering Degree in Computer Science",
+        "desc": "Computer engineering program at the Mediterranean Polytechnic School (MIT-Polytech), pursued alongside professional work."
       },
       "edu1": {
         "date": "2012 - 2016",

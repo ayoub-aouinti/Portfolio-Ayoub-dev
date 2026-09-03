@@ -10,7 +10,7 @@
   "hero": {
     "badge": "Disponible pour embauche",
     "subheading": "Ingénieur Full-Stack spécialisé en solutions web scalables & automatisation métier",
-    "tagline": "4+ ans à transformer des défis métier complexes en applications web performantes et élégantes.",
+    "tagline": "10 ans d'expérience (ingénierie + dev web) à transformer des défis métier complexes en applications web performantes et élégantes.",
     "cta_portfolio": "Voir mes projets",
     "cta_contact": "Discutons",
     "scroll": "Défiler"
@@ -19,7 +19,7 @@
     "label": "À Propos",
     "title": "À Propos de Moi",
     "subtitle": "Ingénieur de formation, développeur par passion",
-    "description": "Avec un parcours unique combinant Ingénierie Hydraulique et Développement Full-Stack, j'apporte une rigueur analytique à chaque projet. Je ne fais pas que coder — je conçois des systèmes qui résolvent de vrais problèmes métier. Mon esprit d'ingénieur garantit une architecture évolutive, un code propre et des résultats mesurables.",
+    "description": "Ingénieur logiciel Full-Stack (Angular, Spring Boot, React, NestJS), je conçois des applications web robustes et évolutives, du frontend à l'API. Six années d'ingénierie et de gestion de projets m'ont forgé une approche rigoureuse — analyse, architecture, performance — que j'applique aujourd'hui à plus de 4 ans de développement web sur des domaines variés : DMS, e-commerce, pharma, agriculture. Le résultat : du code maintenable, des solutions sur mesure et une veille technologique constante.",
     "strength1": "Pensée analytique & systémique",
     "strength2": "Méthodologie Agile (SCRUM)",
     "strength3": "Livraison de projet de bout en bout",
@@ -165,7 +165,7 @@
     "title": "Parcours & Éducation",
     "timeline": {
       "exp_pharma": {
-        "date": "Oct 2024 - Fév 2025",
+        "date": "Oct 2025 - Fév 2026",
         "company": "Continuousnet (Projet Pharmaceutique)",
         "role": "Ingénieur Logiciel (Freelance)",
         "desc": "Digitalisation des dossiers de lots pharmaceutiques. Conception et développement d'interfaces et APIs, intégration Camunda/BPMN, et gestion de formulaires workflow."
@@ -199,6 +199,12 @@
         "company": "Hydroplante, Tunis",
         "role": "Ingénieur Hydraulicien",
         "desc": "Chef d'équipe pour des études hydrauliques et hydrologiques. Gestion de la communication et organisation de projet."
+      },
+      "edu_mit": {
+        "date": "2024 - 2027",
+        "company": "MIT-Polytech, Tunis",
+        "role": "Diplôme d'Ingénieur en Informatique",
+        "desc": "Formation d'ingénieur en informatique à l'École Polytechnique Méditerranéenne (MIT-Polytech), menée en parallèle de l'activité professionnelle."
       },
       "edu1": {
         "date": "2012 - 2016",

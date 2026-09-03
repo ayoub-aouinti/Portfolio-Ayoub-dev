@@ -43,7 +43,7 @@ const About = () => {
                 className="absolute -bottom-6 -right-6 bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-4 border border-gray-100 dark:border-gray-700"
               >
                 <div className="text-center">
-                  <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">4+</span>
+                  <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">10+</span>
                   <p className="text-xs font-bold text-gray-500 dark:text-gray-400 mt-1">{t('about.years')}</p>
                 </div>
               </motion.div>

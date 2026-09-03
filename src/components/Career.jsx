@@ -14,6 +14,7 @@ const Career = () => {
     { id: 'exp1', type: 'work' },
     { id: 'exp2', type: 'work' },
     { id: 'exp3', type: 'work' },
+    { id: 'edu_mit', type: 'education' },
     { id: 'edu1', type: 'education' },
     { id: 'edu2', type: 'education' },
   ];
