@@ -123,6 +123,24 @@ const Portfolio = () => {
       image: "/images/work_teshkeel_full.png",
       link: "https://teshkeel-steel.vercel.app",
       type: "Web App"
+    },
+    {
+      title: t('portfolio.projects.pharmasync.title'),
+      desc: t('portfolio.projects.pharmasync.desc'),
+      impact: t('portfolio.projects.pharmasync.impact'),
+      tech: ["React", "Vite", "Leaflet", "REST API", "iOS / Android"],
+      image: "/images/work_pharmasync_full.png",
+      link: "https://pharmasync.barakode.org/login",
+      type: "Web & Mobile"
+    },
+    {
+      title: t('portfolio.projects.wouqouf.title'),
+      desc: t('portfolio.projects.wouqouf.desc'),
+      impact: t('portfolio.projects.wouqouf.impact'),
+      tech: ["React", "Vite", "Arabic Typography", "Search"],
+      image: "/images/work_wouqouf_full.png",
+      link: "https://wouqouf.barakode.org/",
+      type: "Web App"
     }
   ];
 

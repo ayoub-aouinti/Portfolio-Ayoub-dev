@@ -134,6 +134,16 @@
         "title": "Al-Teshkeel — Diacritisation Arabe",
         "desc": "Une application web pour ajouter la vocalisation (tashkeel) aux textes et documents arabes. Supporte les fichiers Word (.docx) et TXT. Les utilisateurs peuvent s'inscrire via Google ou Facebook, sauvegarder leurs résultats et gérer leurs opérations passées.",
         "impact": "Traitement NLP arabe multi-format"
+      },
+      "pharmasync": {
+        "title": "PharmaSync — Activité Médicale (Web & Mobile)",
+        "desc": "Plateforme de pilotage des délégués médicaux avec back-office web et application mobile iOS/Android. Gestion des délégués, médecins, tournées, comptes rendus et KPI, avec suivi GPS, mode hors-ligne, gestion des échantillons et analytics de couverture, et des tableaux de bord par rôle (Direction, Superviseur, Délégué).",
+        "impact": "Web + iOS/Android, en ligne & hors ligne"
+      },
+      "wouqouf": {
+        "title": "Jâmi‘ al-Wuqûf — Les pauses coraniques",
+        "desc": "Application web savante réunissant les avis des ouvrages classiques du waqf et de l’ibtidâ’ et les symboles des mushafs, mot par mot sur tout le Coran (plus de 77 000 mots, 74 000 jugements, 11 sources). Chaque jugement est cité textuellement avec sa justification, avec une comparaison colorée des avis et une recherche dans le Coran.",
+        "impact": "74 000+ jugements issus de 11 sources"
       }
     }
   },

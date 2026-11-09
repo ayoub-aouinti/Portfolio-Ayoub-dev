@@ -134,6 +134,16 @@
         "title": "Al-Teshkeel — Arabic Diacritization",
         "desc": "A web app for adding diacritical marks (tashkeel) to Arabic texts and documents. Supports Word (.docx) and TXT files. Users can sign in via Google or Facebook, save their diacritization results, and manage past operations.",
         "impact": "Multi-format Arabic NLP Processing"
+      },
+      "pharmasync": {
+        "title": "PharmaSync — Medical Field Force (Web & Mobile)",
+        "desc": "A field-force management platform for pharmaceutical medical reps, with a web back-office and iOS/Android mobile app. Manages reps, doctors, visit tours, reports and KPIs, with GPS tracking, offline mode, sample management and coverage analytics, plus role-based dashboards (Management, Supervisor, Rep).",
+        "impact": "Web + iOS/Android, online & offline"
+      },
+      "wouqouf": {
+        "title": "Jami‘ al-Wuqouf — Quranic Pause Marks",
+        "desc": "A scholarly web app compiling the rulings of classical waqf & ibtida books and mushaf pause symbols, word by word across the entire Quran (77,000+ words, 74,000+ rulings, 11 sources). Each ruling is quoted verbatim with its justification, with color-coded comparison of scholars’ positions and Quran search.",
+        "impact": "74,000+ rulings from 11 sources"
       }
     }
   },
